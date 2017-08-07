@@ -1,0 +1,21 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+body {
+	text-align: center;
+}
+
+table.center {
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.link-to {
+	text-align: center;
+	color: black;
+	background-color: aqua;
+	border-radius: 10px;
+	border-style: groove;
+}

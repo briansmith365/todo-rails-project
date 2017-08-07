@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @todo_item.description %>
+</p>
+
+<button class="link-to"><%= link_to 'Edit', edit_todo_item_path(@todo_item) %></button> |
+<button class="link-to"><%= link_to 'Back', todo_items_path %></button>
